@@ -94,13 +94,13 @@ TARGET_PROVIDES_LIBLIGHT := true
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Properties
-TARGET_SYSTEM_PROP += $(VENDOR_PATH)/system.prop
+TARGET_SYSTEM_PROP += device/motorola/msm8226-common/system.prop
 
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
 
 # Radio
-#TARGET_RIL_VARIANT := caf
+TARGET_RIL_VARIANT := caf
 
 # Recovery
 BOARD_NO_SECURE_DISCARD := true

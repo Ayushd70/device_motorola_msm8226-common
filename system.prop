@@ -51,7 +51,8 @@ ro.qc.sdk.izat.service_mask=0x5
 persist.gps.qc_nlp_in_use=1
 persist.loc.nlp_name=com.qualcomm.services.location
 
-# Media
+# Camera
+camera2.portability.force_api=1
 media.stagefright.legacyencoder=true
 media.stagefright.less-secure=true
 
@@ -96,3 +97,9 @@ persist.sys.ssr.enable_debug=0
 # Wifi
 persist.sys.qc.sub.rdump.on=1
 ro.disableWifiApFirmwareReload=true
+
+# Tethering
+net.tethering.noprovisioning=true
+ 
+# SIM settings
+ro.telephony.sim_unlocked=1
